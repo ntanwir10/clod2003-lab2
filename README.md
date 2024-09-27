@@ -2,7 +2,7 @@
 
 ## GROUP B
 
-###Submitted by:
+### Submitted by:
 
  - Neelotpal Chaulia : 500237314
  - Srinidhi Sivakumar : 500237144
