@@ -25,4 +25,7 @@ func main() {
 	num3 := 20
 	max := findMax(num1, num2, num3)
 	fmt.Printf("The maximum of %d, %d, and %d is %d\n", num1, num2, num3, max)  
+
+   // Function - 3: Bubble Sort by Neelotpal
+   ExampleBubblesort()
 }
