@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Welcome to Group B's Week 4 Project!")
+	var fahrenheit float32
+	fmt.Print("Enter temperature in Fahrenheit: ")
+	fmt.Scanf("%f", &fahrenheit)
+	celsius := fahrenheitToCelsius(fahrenheit)
+	fmt.Printf("Temperature in Celsius: %.2f\n", celsius)
 }
