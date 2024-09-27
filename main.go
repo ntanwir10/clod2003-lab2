@@ -1,5 +1,6 @@
 package main
 
 func main() {
-	println("Hello, World!")
+	println("Hello, this the assignment done by GROUP B !")
+	ExampleBubblesort()
 }
