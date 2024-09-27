@@ -27,7 +27,6 @@ func main() {
 	max := findMax(num1, num2, num3)
 	fmt.Printf("The maximum of %d, %d, and %d is %d\n", num1, num2, num3, max)  
 
-
     //Function 3: Calculating the Area of a Circle
     fmt.Println("Function 3: Calculating the Area of a Circla by Oviya Krishnamoorthy ")
 
@@ -38,4 +37,5 @@ func main() {
     // Function 4: Bubble Sort by Neelotpal
 	  fmt.Println("Function 4: Bubble Sort by Neelotpal")
          ExampleBubblesort()
+
 }
