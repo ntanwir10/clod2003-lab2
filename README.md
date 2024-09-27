@@ -11,4 +11,17 @@
  - Anjani Netala : 500238659
 
 ### Output:
-![Alt text](https://github.com/ntanwir10/clod2003_group_B_week4/blob/master/Output)
+
+![](/images/Output.png)
+
+![](/images/Contributions.png)
+
+![](/images/AnjaniCommits.png)
+
+![](/images/NeelCommits.png)
+
+![](/images/TanwirCommits.png)
+
+![](/images/SrinidhiCommits.png)
+
+![](/images/Oviyacommits.png)
