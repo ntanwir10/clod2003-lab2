@@ -24,4 +24,4 @@
 
 ![](/images/SrinidhiCommits.png)
 
-![](/images/Oviyacommits.png)
+![](/images/Oviyacommit.png)
