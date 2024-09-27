@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Welcome to Group B's Week 4 Project!")
@@ -37,5 +39,13 @@ func main() {
     // Function 4: Bubble Sort by Neelotpal
 	  fmt.Println("Function 4: Bubble Sort by Neelotpal")
          ExampleBubblesort()
+
+  // Function - 5: Fahrenheit to Celsius by Nauman Tanwir
+  fmt.Println("Function 5: Fahrenheit to Celsius by Nauman Tanwir")
+	var fahrenheit float32
+	fmt.Print("Enter temperature in Fahrenheit: ")
+	fmt.Scanf("%f", &fahrenheit)
+	celsius := fahrenheitToCelsius(fahrenheit)
+  fmt.Printf("Temperature in Celsius: %.2f\n", celsius)
 
 }
