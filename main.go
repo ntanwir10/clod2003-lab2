@@ -22,16 +22,30 @@ func main() {
    }  
   
   // Function - 2: Maximum of 3 Numbers by Anjani
-	num1 := 56
+	fmt.Printf("Function 2: Maximum of 3 Numbers by Anjani")	
+  	num1 := 56
 	num2 := 35
 	num3 := 20
 	max := findMax(num1, num2, num3)
 	fmt.Printf("The maximum of %d, %d, and %d is %d\n", num1, num2, num3, max)  
 
-   // Function - 3: Fahrenheit to Celsius by Nauman Tanwir
+    //Function 3: Calculating the Area of a Circle
+    fmt.Println("Function 3: Calculating the Area of a Circla by Oviya Krishnamoorthy ")
+
+    radius := 7.0
+	area := CircleArea(radius)
+	fmt.Printf("The area of the circle with radius %.2f is %.2f\n", radius, area)
+    
+    // Function 4: Bubble Sort by Neelotpal
+	  fmt.Println("Function 4: Bubble Sort by Neelotpal")
+         ExampleBubblesort()
+
+  // Function - 5: Fahrenheit to Celsius by Nauman Tanwir
+  fmt.Println("Function 5: Fahrenheit to Celsius by Nauman Tanwir")
 	var fahrenheit float32
 	fmt.Print("Enter temperature in Fahrenheit: ")
 	fmt.Scanf("%f", &fahrenheit)
 	celsius := fahrenheitToCelsius(fahrenheit)
-	fmt.Printf("Temperature in Celsius: %.2f\n", celsius)
+  fmt.Printf("Temperature in Celsius: %.2f\n", celsius)
+
 }
