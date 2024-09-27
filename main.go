@@ -4,13 +4,6 @@ import "fmt"
 
 func main() {
 	fmt.Println("Welcome to Group B's Week 4 Project!")
-<<<<<<< HEAD
-
-	radius := 7.0
-	area := CircleArea(radius)
-	fmt.Printf("The area of the circle with radius %.2f is %.2f\n", radius, area)
-
-=======
   
   // Function - 1: Palindrome function by Srinidhi Sivakumar
 	fmt.Println("Function 1: Palindrome function submitted by Srinidhi Sivakumar ")
@@ -41,4 +34,8 @@ func main() {
     radius := 7.0
 	area := CircleArea(radius)
 	fmt.Printf("The area of the circle with radius %.2f is %.2f\n", radius, area)
+    
+    // Function 4: Bubble Sort by Neelotpal
+	  fmt.Println("Function 4: Bubble Sort by Neelotpal")
+         ExampleBubblesort()
 }
