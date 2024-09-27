@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	fmt.Println("Welcome to Group B's Week 4 Project!")
@@ -25,4 +27,11 @@ func main() {
 	num3 := 20
 	max := findMax(num1, num2, num3)
 	fmt.Printf("The maximum of %d, %d, and %d is %d\n", num1, num2, num3, max)  
+
+   // Function - 3: Fahrenheit to Celsius by Nauman Tanwir
+	var fahrenheit float32
+	fmt.Print("Enter temperature in Fahrenheit: ")
+	fmt.Scanf("%f", &fahrenheit)
+	celsius := fahrenheitToCelsius(fahrenheit)
+	fmt.Printf("Temperature in Celsius: %.2f\n", celsius)
 }
